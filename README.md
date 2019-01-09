@@ -58,7 +58,7 @@
   - [x] What is CI/CD?
   - [x] <travis-ci.org> vs. <travis-ci.com>
   - [x] Serverless with now
-- [ ] Write simple express API
+- [x] Write simple express API
   - [x] Initialize git
   - [x] Initialize npm
   - [x] Add expressJS
@@ -66,7 +66,7 @@
 - [x] Add Tests
   - [x] Add jest supertest
   - [x] Write tests
-- [ ] Push to GitHub
+- [x] Push to GitHub
 - [ ] Configure TravisCI for CI
 - [ ] Write deployment to now
   - [ ] Configure now.json
