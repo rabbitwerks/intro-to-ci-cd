@@ -67,7 +67,7 @@
   - [x] Add jest supertest
   - [x] Write tests
 - [x] Push to GitHub
-- [ ] Configure TravisCI for CI
+- [x] Configure TravisCI for CI
 - [ ] Write deployment to now
   - [ ] Configure now.json
   - [ ] travis-cli and environment variables
