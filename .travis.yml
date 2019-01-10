@@ -1,9 +1,17 @@
 language: node_js
-node_js:
-  - "10.15"
-deploy:
-  provider: script
-  script: npm run deploy
-  skip_cleanup: true
-  on:
-    branch: master
+node_js: ["10.15"]
+stages:
+  - test
+  - name: deploy
+    if: branch = master
+jobs:
+  include:
+    - stage: test
+      script: npm run test
+    - script: npm run lint
+    - stage: deploy
+      script: skip
+      deploy:
+        provider: script
+        script: npm run deploy
+        skip_cleanup: true

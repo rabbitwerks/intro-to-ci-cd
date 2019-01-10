@@ -68,11 +68,11 @@
   - [x] Write tests
 - [x] Push to GitHub
 - [x] Configure TravisCI for CI
-- [ ] Write deployment to now
-  - [ ] Configure now.json
-  - [ ] travis-cli and environment variables
+- [x] Write deployment to now
+  - [x] Configure now.json
+  - [x] travis-cli and environment variables
 - [ ] Add more tests
-  - [ ] Add eslint
+  - [x] Add eslint
   - [ ] Configure TravisCI stages
 
 ### Things not covered here
